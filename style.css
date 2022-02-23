@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.calculator{
+    padding: 20px;
+}
+
+.screen{
+    width: 250px;
+    height: 50px;
+    margin: 5px;
+    border: 2px solid grey;
+    box-shadow: inset 0 0 1px #000000;
+}
+
+button {
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.operator {
+    background-color: #ffd9ec;
+}
