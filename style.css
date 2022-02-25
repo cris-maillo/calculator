@@ -2,17 +2,22 @@
 
 *{
     font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
 }
 
 .calculator{
     padding: 50px;
+    margin: 5px;
 }
 
-.screen{
+.calculatorscreen{
     width: 250px;
-    height: 50px;
-    margin: 5px;
+    height: 60px;
+    line-height: 45px;
+    font-size: 30px;
     --block-background-color: rgb(235, 210, 250);
+    text-align: right;
+    padding-right: 20px;
 }
 
 button.block{
@@ -22,10 +27,12 @@ button.block{
     --block-background-color: rgb(175, 83, 228);
     color: white;
     display: inline-block;
-    font-size: 20px;
 }
 
 .block.operator {
-    background-color: #ffd9ec;
+    --block-background-color: rgb(114, 40, 156);
+} 
+
+.block.allClear {
     --block-background-color: rgb(114, 40, 156);
 } 

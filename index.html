@@ -7,35 +7,38 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script language="javascript" type="text/javascript" src="script.js" defer></script>
 </head>
 <body>
     <div class="calculator">
-        <div class="block fixed screen">
-        </div>
-        <div class="section1">
-            <button class="block operator add">+</button>
-            <button class="block" id="7">7</button>
-            <button class="block" id="8">8</button>
-            <button class="block" id="9">9</button>
-        </div>
-        <div class="section2">
-            <button class="block operator subtract">-</button>
-            <button class="block" id="4">4</button>
-            <button class="block" id="5">5</button>
-            <button class="block" id="6">6</button>
-        </div>
-        <div class="section3">
-            <button class="block  operator multiply">x</button>
-            <button class="block" id="1">1</button>
-            <button class="block" id="2">2</button>
-            <button class="block" id="3">3</button>
-        </div>
-        <div class="section4">
-            <button class="block operator divide">%</button>
-            <button class="block" id="0">0</button>
-            <button class="block operator" id="equals" style="width: 115px">=</button>
-        </div>    
+        <input class="block calculatorscreen" value="" disabled>
+        </input>
+        <div class="calculatorkeys">
+            <div class="section1">
+                <button class="block operator" value="+">+</button>
+                <button class="block digit" id="7">7</button>
+                <button class="block digit" id="8">8</button>
+                <button class="block digit" id="9">9</button>
+            </div>
+            <div class="section2">
+                <button class="block operator" value="-">-</button>
+                <button class="block digit" id="4">4</button>
+                <button class="block digit" id="5">5</button>
+                <button class="block digit" id="6">6</button>
+            </div>
+            <div class="section3">
+                <button class="block operator" value="*">&times;</button>
+                <button class="block digit" id="1">1</button>
+                <button class="block digit" id="2">2</button>
+                <button class="block digit" id="3">3</button>
+            </div>
+            <div class="section4">
+                <button class="block operator" value="/">&divide;</button>
+                <button class="block allClear" value="all-clear">AC</button>
+                <button class="block digit" id="0">0</button>
+                <button class="block operator" id="equals" value="=">=</button>
+            </div> 
+        </div>   
     </div>
 </body>
 </html>
